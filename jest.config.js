@@ -9,10 +9,12 @@ module.exports = {
     '^.+\\.ts$': 'ts-jest',
     '^.+\\.js$': 'babel-jest',
     '.*\\.(vue)$': 'vue-jest',
+    '^.+\\tsx?$': 'ts-jest',
   },
   collectCoverage: true,
   collectCoverageFrom: [
     '<rootDir>/components/**/*.vue',
     '<rootDir>/pages/**/*.vue',
   ],
+  testRegex: '(test|spec)\\.(jsx?|tsx?)$',
 };

@@ -57,6 +57,7 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+    'portal-vue/nuxt',
   ],
   /*
    ** Axios module configuration
