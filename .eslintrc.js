@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
-  parser: ['vue-eslint-parser', '@typescript-eslint/parser'],
+  // parser: ['vue-eslint-parser', '@typescript-eslint/parser'],
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
