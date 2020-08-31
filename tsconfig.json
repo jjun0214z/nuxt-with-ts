@@ -11,11 +11,22 @@
     "noEmit": true,
     "experimentalDecorators": true,
     "baseUrl": ".",
+    "jsx": "preserve",
+    "jsxFactory": "h",
     "paths": {
       "~/*": ["src/*"],
       "@cp/*": ["src/components/*"]
     },
-    "types": ["@types/node", "@nuxt/types", "@types/jest"]
+    "types": [
+      "@types/node",
+      "@nuxt/types",
+      "@types/jest",
+
+      "node",
+      "vue/types",
+      "@nuxt/vue-app",
+      "@nuxtjs/axios"
+    ]
   },
   "exclude": ["node_modules", ".nuxt", "dist"]
 }

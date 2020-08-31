@@ -34,7 +34,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [],
+  plugins: ['~/plugins/portalVue'],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -75,5 +75,8 @@ export default {
    */
   build: {},
 
+  /*
+   ** 초기 디렉토리 정보
+   */
   srcDir: 'src/',
 };
