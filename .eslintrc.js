@@ -24,5 +24,7 @@ module.exports = {
   ],
   plugins: ['vue', 'prettier', '@typescript-eslint'],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'vue/this-in-template': 'off',
+  },
 };

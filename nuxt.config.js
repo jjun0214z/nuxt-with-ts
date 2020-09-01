@@ -39,7 +39,7 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: false,
   /*
    ** Nuxt.js dev-modules
    */
@@ -74,7 +74,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
-
   /*
    ** 초기 디렉토리 정보
    */
