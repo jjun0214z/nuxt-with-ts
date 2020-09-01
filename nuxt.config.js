@@ -29,7 +29,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['reset-css'],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -57,7 +57,10 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
+
+    // 모듈 추가
     'portal-vue/nuxt',
+    '@nuxtjs/style-resources',
   ],
   /*
    ** Axios module configuration
@@ -78,4 +81,8 @@ export default {
    ** 초기 디렉토리 정보
    */
   srcDir: 'src/',
+  /*
+   ** styleResources load
+   */
+  styleResources: { sass: ['@/assets/scss/common/*.scss'] },
 };
