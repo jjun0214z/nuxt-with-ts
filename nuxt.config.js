@@ -1,5 +1,9 @@
 export default {
   /*
+   ** 초기 디렉토리 정보
+   */
+  srcDir: 'src/',
+  /*
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
@@ -77,10 +81,6 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
-  /*
-   ** 초기 디렉토리 정보
-   */
-  srcDir: 'src/',
   /*
    ** styleResources load
    */

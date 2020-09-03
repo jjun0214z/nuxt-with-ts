@@ -14,8 +14,8 @@
     "jsxFactory": "h",
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"],
+      "~/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "types": ["@types/node", "@nuxt/types", "@types/jest"]
   },

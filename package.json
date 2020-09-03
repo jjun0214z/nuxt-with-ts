@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "predev": "yarn run types",
-    "dev": "nuxt-ts",
+    "dev": "nuxt-ts --open",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
@@ -31,7 +31,8 @@
     "nuxt": "^2.14.0",
     "nuxt-property-decorator": "^2.7.2",
     "portal-vue": "^2.1.7",
-    "reset-css": "^5.0.1"
+    "reset-css": "^5.0.1",
+    "vuex-module-decorators": "^0.17.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.14.0",
