@@ -1,5 +1,8 @@
 <template>
-  <div class="container">113</div>
+  <div class="container">
+    113
+    <input v-useInput="this.testValue" type="text" name="testInput" />
+  </div>
 </template>
 
 <script lang="ts">
@@ -10,10 +13,12 @@ const sampleModule = namespace('modules/sample');
 @Component
 export default class App extends Vue {
   @sampleModule.State('testState')
-  public info: string | unknown;
+  private testState: string | unknown;
+
+  private testValue: string | unknown = '테스트';
 
   mounted(): void {
-    console.log(this.info);
+    console.log(this.testState);
   }
 }
 </script>
