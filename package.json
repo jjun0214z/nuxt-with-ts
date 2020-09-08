@@ -18,11 +18,6 @@
     "*.{js,vue}": "eslint",
     "*.{css,scss,vue}": "stylelint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@nuxt/content": "^1.5.0",
     "@nuxt/typescript-runtime": "^1.0.0",

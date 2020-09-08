@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     113
-    <input v-useInput="this.testValue" type="text" name="testInput" />
+    <input v-model="testValue" type="text" name="testInput" />
+    {{ testValue }}
   </div>
 </template>
 
@@ -15,7 +16,7 @@ export default class App extends Vue {
   @sampleModule.State('testState')
   private testState: string | unknown;
 
-  private testValue: string | unknown = '테스트';
+  private testValue: string = '테스트';
 
   mounted(): void {
     console.log(this.testState);
